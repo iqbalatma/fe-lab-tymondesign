@@ -24,7 +24,6 @@ const onSubmit = async () => {
       username: form.value.username,
       password: form.value.password,
     }),
-    credentials: 'include'
   })
 
   const body = await response.json()
@@ -44,7 +43,10 @@ const onSubmit = async () => {
 </script>
 
 <template>
-  Login User With Library iqbalatma
+
+  <div class="bg-yellow-400">
+    Login User With Library Tymondesign
+  </div>
 
   <div class="grid grid-cols-12 mt-10 gap-5">
     <div class="col-span-12">

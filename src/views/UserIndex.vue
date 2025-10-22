@@ -9,7 +9,6 @@ onMounted(async () => {
       'Content-Type': 'application/json',
       'Authorization': 'Bearer ' + localStorage.getItem('access_token'),
     },
-    credentials: 'include'
   })
 
   const body = await response.json()
